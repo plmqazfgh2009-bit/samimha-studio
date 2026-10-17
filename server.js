@@ -10,7 +10,7 @@ const API_KEY = process.env.GEMINI_API_KEY;
 
 app.get("/", (req, res) => {
   res.sendFile(
-    path.join(__dirname, "samimha-studio-ultimate.html")
+    path.join(__dirname, "samimha-studio-ultimate-1.html")
   );
 });
 
